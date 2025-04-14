@@ -375,19 +375,19 @@
 }
 
 .footer__list-item {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
   padding-bottom: 16px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
-  margin-left: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
 }
 
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
